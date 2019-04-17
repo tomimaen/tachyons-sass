@@ -21,6 +21,10 @@
   overflow-y: scroll;
 }
 
+.momentum-scrolling {
+  -webkit-overflow-scrolling: touch;
+}
+
 .center {
   margin-right: auto;
   margin-left: auto;
