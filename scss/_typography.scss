@@ -45,6 +45,15 @@
   font-variant: small-caps;
 }
 
+/* Use &shy; for "soft" hyphen */
+.hyphens-manual {
+  hyphens: manual;
+}
+
+.hyphens-auto {
+  hyphens: auto;
+}
+
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 
 .truncate {
